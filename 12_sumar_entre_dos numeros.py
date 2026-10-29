@@ -8,5 +8,5 @@ if num1<num2:
 else: 
     menor,mayor=num2,num1
 for num in range(menor,mayor+1):
-    suma=suma+n
+    suma=suma+num
     print("la solucion es:", sum)
