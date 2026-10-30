@@ -16,13 +16,12 @@ while resp=="s" or resp=="S":
     y=int(input("Introduce y:"))
     coordenadas.append((x,y))
     resp=input("¿desea introducir otra coordenada (s/n)?")
-
+    
 print("coordenadas usuario")
+
 x_usuario=input("Tu poscicion x:")
 y_usuario=input("Tu poscicion y:")
-
 coordenadas_usuario=(x_usuario,y_usuario)
-
 
 def distancia(p1,p2):
     return math.hypot(p1[0]-p2[0],p1[1]-p2[1])
